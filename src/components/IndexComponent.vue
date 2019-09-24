@@ -13,7 +13,7 @@
             <thead>
             <tr>
                 <th>ID</th>
-                <th>Item Name</th>
+                <th>Item Names</th>
                 <th>Item Price</th>
                 <th>Actions</th>
             </tr>
@@ -32,6 +32,7 @@
 </template>
 
 <script>
+/* eslint-disable */
   export default {
       data() {
         return {
@@ -41,10 +42,10 @@
       created() {
       let uri = `http://192.168.10.105:8000/api/alluser`;
       this.axios.get(uri).then(response => {
-        this.posts = response.data.user;
+        this.posts = response.data.user
         console.log(this.posts)
-      });
-    },
+      })
+    }
     // methods: {
     //   deletePost(id)
     //   {
