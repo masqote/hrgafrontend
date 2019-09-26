@@ -14,7 +14,7 @@
             <tr>
                 <th>ID</th>
                 <th>Item Names</th>
-                <th>Item Prices Mae</th>
+                <th>Item Prices </th>
                 <th>Actions</th>
             </tr>
             </thead>
