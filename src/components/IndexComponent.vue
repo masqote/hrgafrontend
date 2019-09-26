@@ -3,7 +3,7 @@
 <template>
   <div class="tes">
         <div class="row">
-          <div class="col-md-10"> <h1>Input Mae Aja </h1></div>
+          <div class="col-md-10"> <h1>Simple Table </h1></div>
           <div class="col-md-2">
             <router-link :to="{ name: 'create' }" class="btn btn-primary">Create Post</router-link>
           </div>
